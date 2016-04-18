@@ -100,295 +100,229 @@
 事实上，字符\ ``+``\ 作为分隔符。是因为它没有连接到任何其他的框显示为红色文本行。
 经常使用的这种类型的框中插入一个图形注释。
 
-，您必须创建一个框，与动词/
-:math:`开始。框的文本是绿色的，并且可以包含空行。
-这个框不能要么转型传入或传出过渡（见图~/ref{comment-box}).
+，您必须创建一个框，与\ ``/``\ 开始。框的文本是绿色的，并且可以包含空行。
+这个框不能要么转型传入或传出过渡（见图 [comment-box]).
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=12.5cm]{resources/img/fig5-4b.png}
-\caption{包含注释的框\label{comment-box}}
-\end{center}
-\end{figure}
-%\clearpage
+.. figure:: resources/img/fig5-4b.png
+   :alt: 包含注释的框[comment-box]
+   :width: 12.50000cm
 
-\bigskip
-\noindent为了一框连接到另一个，则必须点击开始框，然后在目标框。\index{Graphe!connexion des boîtes}\index{Boîtes!connexion}
+   包含注释的框[comment-box]
+
+，则必须点击开始框，然后在目标框。
 如果已经有两个框之间的过渡，后者被去除。这是可能
 在目标中执行，首先单击此相同的操作，然后按开始框，同时按下Shift键。
 在我们的例子中，一旦连接到初始状态和图形的最终状态的方块中，
-我们得到图~\ref{fig-pronoun-graph}:
+我们得到图 [fig-pronoun-graph]:
 
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=14.5cm]{resources/img/fig5-5.png}
-\caption{英语代词的图形识别\label{fig-pronoun-graph}}
-\end{center}
-\end{figure}
+.. figure:: resources/img/fig5-5.png
+   :alt: 英语代词的图形识别[fig-pronoun-graph]
+   :width: 14.50000cm
 
-\bigskip
-\noindent注：如果您双击一个框，该框将连接到它本身（见图~\ref{fig-loop-box}）.要取消，再次框上的双击。
-\bigskip
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=4.5cm]{resources/img/fig5-6.png}
-\caption{Boîte reliée à elle-même\label{fig-loop-box}}
-\end{center}
-\end{figure}
+   英语代词的图形识别[fig-pronoun-graph]
 
-\noindent点击“另存为...”，从“FSGraph”菜单来保存图。\index{Graphe!enregistrement}.默认情况下，Unitex提供了保存在子目录\verb+Graphs+的图形。\index{Répertoire!personnel de travail}你可以看到，如果图形通过检查图表标题的最后一个记录后改变包含文本 \verb+(Unsaved)+.
+：如果您双击一个框，该框将连接到它本身（见图 [fig-loop-box]）.要取消，再次框上的双击。
 
-\bigskip
-\noindent  一个图可能包含循环。环路可以环绕单框，如图.~ref{fig-loop-box}或更多，如图~\ref{multi-selection}所示。循环的内容将认识到任何数目的顺序次。我们可以对的次数设置限制，但仅用于围绕单个框的循环：参见~\ref{nb-repetitions}.
+.. figure:: resources/img/fig5-6.png
+   :alt: Boîte reliée à elle-même[fig-loop-box]
+   :width: 4.50000cm
 
-%%%%%%%%%%%%%%%%%%%%%%%
-\bigskip
-\noindent当改变一个图，我们可以证明，单击鼠标右键，右键菜单，可以执行最常见的操作〜（图~\ref{contextual-menu}）：
+   Boîte reliée à elle-même[fig-loop-box]
 
-\bigskip
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=7.5cm]{resources/img/fig5-6b.png}
-\caption{上下文菜单\label{contextual-menu}}
-\end{center}
-\end{figure}
+“另存为...”，从“FSGraph”菜单来保存图。.默认情况下，Unitex提供了保存在子目录\ ``Graphs``\ 的图形。你可以看到，如果图形通过检查图表标题的最后一个记录后改变包含文本
+``(Unsaved)``.
 
-\begin{itemize}
-\item 创建一个框
-\item 保存或打印当前图表或修改页面设置项目常用的菜单“工具”和“格式”“放大”是在菜单中也提供“FS图”\end{itemize}
-如果选择了一个或多个方框，以下菜单变为可用，并且可以对这个组的框执行若干类型的操作。否则，他们是无用的，因此无效。\begin{itemize}
-\item 关于所选框用输入变量的定义 \index{Variable!d'entrée}
-或输出部分\index{Variable!de sortie}分隔符或形态模式所指的上下文的输出。这些操作也可以用图形窗口的编辑工具栏（见~\ref{toolbar-commands}）. 
-\item 合并选定框
-\item 在新图中导出选定框
-\end{itemize}
+一个图可能包含循环。环路可以环绕单框，如图. reffig-loop-box或更多，如图 [multi-selection]所示。循环的内容将认识到任何数目的顺序次。我们可以对的次数设置限制，但仅用于围绕单个框的循环：参见 [nb-repetitions].
 
+，我们可以证明，单击鼠标右键，右键菜单，可以执行最常见的操作〜（图 [contextual-menu]）：
 
-%%%%%%%%%%%%%%%%%%%%%%%%
+.. figure:: resources/img/fig5-6b.png
+   :alt: 上下文菜单[contextual-menu]
+   :width: 7.50000cm
 
+   上下文菜单[contextual-menu]
 
-\subsection{子图}
-\label{section-subgraphs}
-\index{Graphe!appel à un sous-graphe}\index{\verb+:+}
-要调用一个子图，由字符\verb+:+ 前面表示在一个框里他的名字。如果你在框中输入：
+-  创建一个框
 
-\medskip
-\verb`\ alpha+:beta+gamma+:E:.grf\ :math:`
+-  保存或打印当前图表或修改页面设置项目常用的菜单“工具”和“格式”“放大”是在菜单中也提供“FS图”
 
-\medskip
-\noindent你会得到类似于图~\ref{fig-subgraph-call}的框.
+如果选择了一个或多个方框，以下菜单变为可用，并且可以对这个组的框执行若干类型的操作。否则，他们是无用的，因此无效。
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=6cm]{resources/img/fig5-7.png}
-\caption{子图上绘制图表 \texttt{beta} et
-\texttt{delta}\label{fig-subgraph-call}}
-\end{center}
-\end{figure}
+-  关于所选框用输入变量的定义
+   或输出部分分隔符或形态模式所指的上下文的输出。这些操作也可以用图形窗口的编辑工具栏（见 [toolbar-commands]）.
 
-\noindent您可以指定图形的全名
-(\verb`\ E:.grf\ :math:`)或简单地不带路径的名称
- (\verb`\ beta\ :math:`);在这种情况下，子图被假定为在相同的目录中引用它的曲线图。这是不建议，因为它破坏了其便携使用使用绝对路径图的名字。如果您使用绝对图的名字来操作 \verb+E:\greek\delta.grf+ 图形编译器发出警告（见图〜\ref{fig-warning-absolute-graph-name}).
+-  合并选定框
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=14.5cm]{resources/img/fig5-8.png}
-\caption{对非便携式图形名称报错\label{fig-warning-absolute-graph-name}}
-\end{center}
-\end{figure}
+-  在新图中导出选定框
 
-\bigskip
-\noindent为便携的同样的原因，建议使用\verb+\+或 \verb+/+作为图形名称的隔板。相反，它是使用器的\verb+:+好：无论你的工作系统。我们也可以看到在图
-~\ref{fig-warning-absolute-graph-name}这就是分离器由图形编译器内部使用(\verb+E::greek:delta.grf+).
+子图
+~~~~
 
-\bigskip
-\noindent \textbf{投递目录}
-\label{section-repository}
+要调用一个子图，由字符\ ``:``
+前面表示在一个框里他的名字。如果你在框中输入：
 
-\bigskip
-\noindent当一个人希望在` Y\ :math:`语法使用语法` X
-:math:`，常见的做法是` X :math:`的所有图形复制的目录中`
-Y\ :math:`的图是，这会有两个问题：
+``alpha+:beta+gamma+:E:\greek\delta.grf``
 
-\begin{itemize}
-  \item 在目录图形的数目很快就变得非常重要~;
-  \item两个图不能有相同的名称。
-\end{itemize}
+ [fig-subgraph-call]的框.
 
-\noindent 为了避免这种情况，可以存储在特定目录语法` X
-:math:`，称为\textit{投递目录}.\index{Répertoire!dépôt de graphes}\index{Graphe!répertoire de dépôt}。这个目录是一种库，在那里你可以存储图形，然后使用\verb+::+而不是 \verb+:+。要使用这个机制，首先要在菜单中定义信息库目录“信息>首选项...>目录”（参见图\ref{directories}）.
+.. figure:: resources/img/fig5-7.png
+   :alt: 子图上绘制图表 ``beta`` et ``delta``\ [fig-subgraph-call]
+   :width: 6.00000cm
+
+   子图上绘制图表 ``beta`` et ``delta``\ [fig-subgraph-call]
+
+(``E:\greek\delta.grf``)或简单地不带路径的名称
+(``beta``);在这种情况下，子图被假定为在相同的目录中引用它的曲线图。这是不建议，因为它破坏了其便携使用使用绝对路径图的名字。如果您使用绝对图的名字来操作
+``E:\greek\delta.grf``
+图形编译器发出警告（见图〜[fig-warning-absolute-graph-name]).
+
+.. figure:: resources/img/fig5-8.png
+   :alt: 对非便携式图形名称报错[fig-warning-absolute-graph-name]
+   :width: 14.50000cm
+
+   对非便携式图形名称报错[fig-warning-absolute-graph-name]
+
+，建议使用\ ``\``\ 或
+``/``\ 作为图形名称的隔板。相反，它是使用器的\ ``:``\ 好：无论你的工作系统。我们也可以看到在图
+ [fig-warning-absolute-graph-name]这就是分离器由图形编译器内部使用(``E::greek:delta.grf``).
+
+**投递目录** [section-repository]
+
+:math:`Y`\ 语法使用语法\ :math:`X`\ ，常见的做法是\ :math:`X`\ 的所有图形复制的目录中\ :math:` Y`\ 的图是，这会有两个问题：
+
+-  在目录图形的数目很快就变得非常重要 ; 。
+
+为了避免这种情况，可以存储在特定目录语法\ :math:` X `\ ，称为\ *投递目录*.。这个目录是一种库，在那里你可以存储图形，然后使用\ ``::``\ 而不是
+``:``\ 。要使用这个机制，首先要在菜单中定义信息库目录“信息>首选项...>目录”（参见图[directories]）.
 选择在“图形库”目录。投递目录是适当的工作语言，所以你不必使用相同的目录多种语言。
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=8cm]{resources/img/fig5-10.png}
-\caption{确认存放的目录\label{directories}}
-\end{center}
-\end{figure}
+.. figure:: resources/img/fig5-10.png
+   :alt: 确认存放的目录[directories]
+   :width: 8.00000cm
 
-\bigskip
-\noindent假设我们有一棵树，如图\ref{repository}.如果我们调用图\verb+DET+这是在子目录\verb+Johnson+，我们称作
+   确认存放的目录[directories]
 
-% do not remove this line jump
-\noindent \verb+::Det:Johnson:DET+
-(见图\ref{repository-graph-call}\footnote{为了清楚起见，调用投递目录的图表显示在卡其色的背景，而不是灰色的。})。
+，如图[repository].如果我们调用图\ ``DET``\ 这是在子目录\ ``Johnson``\ ，我们称作
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=3.9cm]{resources/img/fig5-11.png}
-\caption{投递目录的例子\label{repository}}
-\end{center}
-\end{figure}
+``::Det:Johnson:DET`` (见图[repository-graph-call] [1]_)。
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=6.7cm]{resources/img/fig5-12.png}
-\caption{调用投递目录的图\label{repository-graph-call}}
-\end{center}
-\end{figure}
+.. figure:: resources/img/fig5-11.png
+   :alt: 投递目录的例子[repository]
+   :width: 3.90000cm
 
-\bigskip
-\noindent提示：如果你想避免把你的图表复杂路径\verb+::Det:Johnson:DET+，您可以创建一个名为图\verb+DET+您将资料库根目录\verb+D:\repository\DET.grf+）。此图只包含对图形\verb+::Det:Johnson:DET+。然后，你可以把你的图形简单调用\verb+::DET+。这使1不和要有复杂的名称和2）修改投递目录的图表，而无需更改所有的图表。事实上，你只需要在投递目录的根更新图表。
-\bigskip
-\noindent调用子图显示在框由灰色背景（图~\ref{fig-subgraph-call}），或在卡其子图的情况下，行库目录看（图~\ref{repository-graph-call}）。如果该文件位于\verb++.grf子图未在指定的路径中，Unitex搜索文件\verb+.fst2+相同的名称。如果Unitex发现既不是\verb+.grf+ 也不\verb+.fst2+，调用缺少的图形出现在红色背景上的一条线。
+   投递目录的例子[repository]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+.. figure:: resources/img/fig5-12.png
+   :alt: 调用投递目录的图[repository-graph-call]
+   :width: 6.70000cm
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=7cm]{resources/img/fig5-9.png}
-\caption{缺少的子图显示为红色}
-\end{center}
-\end{figure}
+   调用投递目录的图[repository-graph-call]
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+：如果你想避免把你的图表复杂路径\ ``::Det:Johnson:DET``\ ，您可以创建一个名为图\ ``DET``\ 您将资料库根目录\ ``D:\repository\DET.grf``\ ）。此图只包含对图形\ ``::Det:Johnson:DET``\ 。然后，你可以把你的图形简单调用\ ``::DET``\ 。这使1不和要有复杂的名称和2）修改投递目录的图表，而无需更改所有的图表。事实上，你只需要在投递目录的根更新图表。
+（图 [fig-subgraph-call]），或在卡其子图的情况下，行库目录看（图 [repository-graph-call]）。如果该文件位于\ ````.grf子图未在指定的路径中，Unitex搜索文件\ ``.fst2``\ 相同的名称。如果Unitex发现既不是\ ``.grf``
+也不\ ``.fst2``\ ，调用缺少的图形出现在红色背景上的一条线。
 
-\bigskip
-\noindent在Windows中，您可以通过点击灰线，同时按下Alt键打开一个子图。在Linux上，使用<Alt +点击> \footnote被清除{如果您正在使用KDE，如果你用KDE的话，则<Alt +点击>}要打开一个子图，就其名字中间点击（中间的按钮），或使同时点击（左右按钮）。
-%%%%%%%%%%%%%%%%%%%%
+.. figure:: resources/img/fig5-9.png
+   :alt: 缺少的子图显示为红色
+   :width: 7.00000cm
 
-\bigskip
-\noindent 图表由当前图形调用，调用当前图形可以通过点击第四组按钮中的第二和第三个按钮的工具栏上观看的图的列表（图~\ref{list-called-graphs}~; 也可见图~\ref{fig-toolbar}, 专栏~\ref{toolbar-commands}）.
-在子图列表中：
-\begin{itemize}
-\item子图直接调用当前图形与简单的文件名显示
-\item子图称为间接通过显示一个带箭头他们的名字之前，由当前图形称为图形之一
-\item出现在图形由当前图形称为子图而不必连接，因此，未经处理的有其在橙色名
-\item子图没有找到（拓展名既不是.grf也不.fst2）显示为红色。
-\end{itemize}
+   缺少的子图显示为红色
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=15.2cm]{resources/img/fig5-12b.png}
-\caption{显示所有已知图列表\label{list-called-graphs}}
-\end{center}
-\end{figure}
+，您可以通过点击灰线，同时按下Alt键打开一个子图。在Linux上，使用<Alt
++点击>
+要打开一个子图，就其名字中间点击（中间的按钮），或使同时点击（左右按钮）。
+图表由当前图形调用，调用当前图形可以通过点击第四组按钮中的第二和第三个按钮的工具栏上观看的图的列表（图 [list-called-graphs] ;
+也可见图 [fig-toolbar], 专栏 [toolbar-commands]）. 在子图列表中：
 
+，由当前图形称为图形之一 ，因此，未经处理的有其在橙色名
+（拓展名既不是.grf也不.fst2）显示为红色。
 
-%%%%%%%%%%%%%%%%%%
+.. figure:: resources/img/fig5-12b.png
+   :alt: 显示所有已知图列表[list-called-graphs]
+   :width: 15.20000cm
 
-\subsection{搬运框}
-\index{Sélection multiple}\index{Boîtes!sélection}
+   显示所有已知图列表[list-called-graphs]
 
-您可以选择使用鼠标多框。只需点击和移动鼠标而不释放按钮。当您松开按钮时，受选择矩形的所有框将被选中，然后会出现在白色的蓝色背景（图 \ref{multi-selection}).
+搬运框
+~~~~~~
 
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=10cm]{resources/img/fig5-13.png}
-\caption{选择多个框\label{multi-selection}}
-\end{center}
-\end{figure}
-%\vspace{-0.3cm}
-%%%%%%%%%%%%%%%
+您可以选择使用鼠标多框。只需点击和移动鼠标而不释放按钮。当您松开按钮时，受选择矩形的所有框将被选中，然后会出现在白色的蓝色背景（图
+[multi-selection]).
 
-\bigskip
-\noindent 您可以选择多个框现在<CTRL>和<SHIFT>和点击每个框添加到选择。通过这种方式，可以选择多个框而不选择整个区域（图 \ref{multi-selection2}).
+.. figure:: resources/img/fig5-13.png
+   :alt: 选择多个框[multi-selection]
+   :width: 10.00000cm
 
-\begin{figure}[!ht]
-\begin{center}
-\includegraphics[width=10cm]{resources/img/fig5-13b.png}
-\caption{选择选择框\label{multi-selection2}}
-\end{center}
-\end{figure}
-%\vspace{-0.3cm}
+   选择多个框[multi-selection]
 
-%%%%%%%%%%%%%%
-\bigskip
-\noindent当选择框被选择后，您可以通过点击并没有释放按钮移动鼠标移动它们。要取消选择，单击图形中的空白区域;如果你点击一个框，所有的选择框将被连接到它。
+您可以选择多个框现在<CTRL>和<SHIFT>和点击每个框添加到选择。通过这种方式，可以选择多个框而不选择整个区域（图
+[multi-selection2]).
 
-\bigskip
-\index{Sélection multiple!copier-coller}
-\index{Copie}\index{Coller}
-\noindent你可以让几框复制和粘贴，如图~\ref{copy-paste-multi-selection}.要做到这一点，选择它们，按<Ctrl+ C>或从“编辑”菜单中点击“复制”。你多现在在Unitex的剪贴板。然后，您可以通过按下<Ctrl+ V>或通过单击“粘贴”，从“编辑”菜单中粘贴此选择。
+.. figure:: resources/img/fig5-13b.png
+   :alt: 选择选择框[multi-selection2]
+   :width: 10.00000cm
 
-\begin{figure}[!h]
-\begin{center}
-\includegraphics[width=13cm]{resources/img/fig5-14.png}
-\caption{复制并粘贴多个选择\label{copy-paste-multi-selection}}
-\end{center}
-\end{figure}
+   选择选择框[multi-selection2]
 
-\bigskip
-\noindent注意：您可以粘贴从它派生不同的图形多重选择。
+，您可以通过点击并没有释放按钮移动鼠标移动它们。要取消选择，单击图形中的空白区域;如果你点击一个框，所有的选择框将被连接到它。
 
-\bigskip
-\index{Graphe!suppression de boîtes}\index{Boîtes!suppression}
-\noindent要删除框，选择删除它们所包含的文本（也就是说，在窗口顶部显示的字段中的文本），然后按Enter。
+，如图 [copy-paste-multi-selection].要做到这一点，选择它们，按<Ctrl+
+C>或从“编辑”菜单中点击“复制”。你多现在在Unitex的剪贴板。然后，您可以通过按下<Ctrl+
+V>或通过单击“粘贴”，从“编辑”菜单中粘贴此选择。
 
-\bigskip
-\noindent您不能删除初始状态或最终状态。
+.. figure:: resources/img/fig5-14.png
+   :alt: 复制并粘贴多个选择[copy-paste-multi-selection]
+   :width: 13.00000cm
 
-\subsection{输出}
-\label{Transducers}\index{Transducteur}\index{\verb+/+}
-这是可能的输出关联到一个框。为此，使用特殊字符\verb+/+。所有字符到它的权利将被视为输出的一部分。因此，文本\verb`\ one+two+three/number\ :math:`给出图框~\ref{fig-exemple-transduction}.
+   复制并粘贴多个选择[copy-paste-multi-selection]
 
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=4.5cm]{resources/img/fig5-15.png}
-\caption{结果实例\label{fig-exemple-transduction}}
-\end{center}
-\end{figure}
+：您可以粘贴从它派生不同的图形多重选择。
 
-\bigskip
-\noindent要创建包含这个\verb+number+，并输出一个空框，我们写\verb+<E>/number+（例如〜：图中最右边的框~\ref{fig-using-variable}是空的，一个输出）。与框相关联的输出以粗体显示在下面。
+，选择删除它们所包含的文本（也就是说，在窗口顶部显示的字段中的文本），然后按Enter。
 
-%%%%%%%%%%%%%%
-\bigskip
-\noindent \textbf{权}
-\index{Poids}
+。
 
-\noindent可以分配一个权重的换能器的框。因此，当一个序列由具有不同的输出几条路径识别
-（歧义翻译器\index{Ambigu!transducteur}\index{Sortie d'un transducteur!ambiguïté}）只有一个最大权重路径将被保留。
-经过一个“查找”，该协议将只承认曾经的序列，并输出（图~\ref{fig-weights-in-graphs}).
+输出
+~~~~
 
-\begin{figure}[h!]
-\begin{center}
-\includegraphics[width=14.5cm]{resources/img/fig5-15b.png}
-\caption{权重曲线\label{fig-weights-in-graphs}}
-\end{center}
-\end{figure}
+这是可能的输出关联到一个框。为此，使用特殊字符\ ``/``\ 。所有字符到它的权利将被视为输出的一部分。因此，文本\ ``one+two+three/number``\ 给出图框 [fig-exemple-transduction].
 
-\bigskip
-\noindent权重是整数值。举一个权重为1的框中插入\verb+`\ 1\ :math:`+在出口，就如同\verb+<E>/`\ 1\ :math:`+.
+.. figure:: resources/img/fig5-15.png
+   :alt: 结果实例[fig-exemple-transduction]
+   :width: 4.50000cm
 
-\bigskip
-\noindent路径的权重是在路径名中找到的最后重量。的重可以是零，但没有严格阴性。有重量的路径，甚至为零，具有优先于没有权重的特性。
+   结果实例[fig-exemple-transduction]
 
-\bigskip
-\noindent 有了这些权重，我们可以定义识别相同序列的路径之间的优先权。不能设置两个序列，其中一个被包括在其他之间的优先级（见~\ref{section-configuration-recherche}）或重叠序列之间（见~\ref{section-priorite-gauche}).
+``number``\ ，并输出一个空框，我们写\ ``<E>/number``\ （例如〜：图中最右边的框 [fig-using-variable]是空的，一个输出）。与框相关联的输出以粗体显示在下面。
 
-\bigskip
-\noindent权重是唯一的图内有效，而不是在子图或图表的调用者。
+**权**
 
-%%%%%%%%%%%%%
+。因此，当一个序列由具有不同的输出几条路径识别
+（歧义翻译器）只有一个最大权重路径将被保留。
+经过一个“查找”，该协议将只承认曾经的序列，并输出（图 [fig-weights-in-graphs]).
 
-\subsection{输入变量}
-\label{section-using-variables}
-\index{Graphe!variables}\index{Variable!d'entrée}\index{\verb+$+$}
-\index{Transducteur!avec variables}
+.. figure:: resources/img/fig5-15b.png
+   :alt: 权重曲线[fig-weights-in-graphs]
+   :width: 14.50000cm
 
-有可能选择由输入变量的装置由一个语法识别的文本的部分。要输入变量\verb+var1+到语法的一部分关联，请使用带图标栏中图形上方的红色括号（第~\ref{toolbar-commands}章）一个或按钮或特殊符号\verb+`\ var1\ :math:`(+ 和
-\verb+`\ var1\ :math:`)+。 （这些符号分别定义了区域店面的开头和结尾。建立一个包含\verb+`\ var1\ :math:`(+ 和 \verb+`\ var1\ :math:`)+，这些框不应该包含任何东西变量名，并且前面由 \verb+`\ +和右括号组成。然后将框连接到期望的区域语法）。
+   权重曲线[fig-weights-in-graphs]
+
+。举一个权重为1的框中插入\ ``${1}$``\ 在出口，就如同\ ``<E>/${1}$``.
+
+。的重可以是零，但没有严格阴性。有重量的路径，甚至为零，具有优先于没有权重的特性。
+
+有了这些权重，我们可以定义识别相同序列的路径之间的优先权。不能设置两个序列，其中一个被包括在其他之间的优先级（见 [section-configuration-recherche]）或重叠序列之间（见 [section-priorite-gauche]).
+
+，而不是在子图或图表的调用者。
+
+输入变量
+~~~~~~~~
+
+有可能选择由输入变量的装置由一个语法识别的文本的部分。要输入变量\ ``var1``\ 到语法的一部分关联，请使用带图标栏中图形上方的红色括号（第 [toolbar-commands]章）一个或按钮或特殊符号\ ``$var1$(``
+和 ``$var1$)``\ 。
+（这些符号分别定义了区域店面的开头和结尾。建立一个包含\ ``$var1$(`` 和
+``$var1$)``\ ，这些框不应该包含任何东西变量名，并且前面由
+``$``\ 和右括号组成。然后将框连接到期望的区域语法）。
 在图的曲线〜[fig-using-variable]，识别开头的号码，它被存储于命名为\ ``var1``\ ，接着\ ``dollar``
 或是\ ``dollars``.
 
@@ -710,3 +644,6 @@ Linux操作系统下:
 注意：您必须确保打印机的方向设置（纵向或横向）的图形的方向一致。
 
 你可以通过点击菜单中的“FS图”“页面设置”设置您的打印首选项。您也可以打印通过点击打开所有图形“全部打印…”。
+
+.. [1]
+   为了清楚起见，调用投递目录的图表显示在卡其色的背景，而不是灰色的。
