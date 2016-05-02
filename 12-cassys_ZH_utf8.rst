@@ -1,5 +1,5 @@
 级联传感器
-========================
+==========
 
 本章介绍了创建传感器和通过自然语言的新工作方式的级联能力的工具\ *Cassys*
 *传感器级联* 一个应用于多个图形 (自动机和传感器), 表示于下列文字:
@@ -118,10 +118,10 @@ CasSys窗口
 ([fig13-02])显示当前语言的CASSYs目录的内容。它可以让你选择包含传感器列表适用于文本文件。一旦选择了这个列表，你可以点击“启动”按钮应用级联。
 
 .. figure:: resources/img/fig13-02.png
-   :alt: Fenêtre de lancement de la cascade de transducteurs
+   :alt: 打开级联传感器后的窗口
    :width: 10.00000cm
 
-   Fenêtre de lancement de la cascade de transducteurs
+   打开级联传感器后的窗口
 
 在首选项中规定的形态方法的任何字典是你的图表可用。
 首选项可以从菜单“Info” (Info –>Preferences –> morphological-mode
@@ -293,7 +293,7 @@ Unitex所显示的一致性应该像那个数字([fig13-07])。对于涉及到�
 
    改变通用图
 
-，例如： textitY如图[fig12-3-03];只有\ *A*\ 这是摆在框中，如图[fig12-3-04].
+，例如：\ *Y*\ 如图[fig12-3-03];只有\ *A*\ 这是摆在框中，如图[fig12-3-04].
 
 .. figure:: resources/img/fig12-3-03.png
    :alt: 带限制的通用图
@@ -302,10 +302,10 @@ Unitex所显示的一致性应该像那个数字([fig13-07])。对于涉及到�
    带限制的通用图
 
 .. figure:: resources/img/fig12-3-04.png
-   :alt: Graphe générique modifié
+   :alt: 修改通用图
    :width: 8.00000cm
 
-   Graphe générique modifié
+   修改通用图
 
 ，一个类别的否定，图例如\ *~y*\ 中的[fig12-3-05]把 textitB在此框中(figure
 [fig12-3-06]).
@@ -328,7 +328,7 @@ Unitex所显示的一致性应该像那个数字([fig13-07])。对于涉及到�
    :alt: Graphe générique avec un complément
    :width: 6.00000cm
 
-   带补充的通用图表
+   Graphe générique avec un complément
 
 级联结果
 --------

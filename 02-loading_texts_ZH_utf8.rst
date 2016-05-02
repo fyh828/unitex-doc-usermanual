@@ -311,7 +311,7 @@ Table: 文本\ *Un sou c’est un sou.*\ 的表示
 使用字典
 ~~~~~~~~
 
-字典的应用由子字典中的原型组成。搜索发法语短语\ *Igor mange une pomme de
+字典的应用由子字典中的原型组成。搜索法语短语\ *Igor mange une pomme de
 terre*\ 的结果如下：
 
 ::
@@ -342,12 +342,10 @@ terre*\ 的结果如下：
 一旦加载字典完毕后，Unitex会按顺序在一个窗口中显示单词、词组以及生词。图 [fig-Dico-application-results]显示了处理一篇英语文章的结果。
 
 .. figure:: resources/img/fig2-13.png
-   :alt: 使用词典后的文本结果
-   anglais[fig-Dico-application-results]
+   :alt: 使用词典后的英文文本结果[fig-Dico-application-results]
    :width: 12.00000cm
 
-   使用词典后的文本结果
-   anglais[fig-Dico-application-results]
+   使用词典后的英文文本结果[fig-Dico-application-results]
 
 通过点击菜单栏“文本”下的“添加语言资源...”按钮，我们同样可以不在预处理时运用字典。Unitex会显示一个窗口(见图
  [fig-Dico-configuration]) 供你选择可以应用的字典。
@@ -362,7 +360,7 @@ terre*\ 的结果如下：
 如果你右击字典名字，字典的介绍会随即显示，只要它存在。
 
 荷兰语、德语、挪威语，俄罗斯语词组分析
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [section-Norwegian-compound-words]
 在有些语言比如挪威语中，词组可能含有他们的元素。比如，单词\ *aftenblad*\ 表示
@@ -370,7 +368,7 @@ terre*\ 的结果如下：
 (*journal*)的结合。\ ``PolyLex``
 程序返回一个生词列表并且尝试分析有没有可能是一个组合词。如果能分析出至少一种可能性，程序就会分会一个列表并加入单词词典。
 
-打开标记文本
+Ouverture d’un texte taggué
 ---------------------------
 
 文本标记是大括号里的文本语法注释。比如说下句：
@@ -383,10 +381,10 @@ terre*\ 的结果如下：
 然而，这些标记可能会影响预处理文章。不过用户可以通过点击菜单“文本”下的“打开含标签的文本”使文本的预处理不受影响，如图[preprocess-tagged-text]所示。
 
 .. figure:: resources/img/fig2-15.png
-   :alt: 预处理标记文本[preprocess-tagged-text]
+   :alt: Prétraitement d’un texte taggué[preprocess-tagged-text]
    :width: 14.00000cm
 
-   预处理标记文本[preprocess-tagged-text]
+   Prétraitement d’un texte taggué[preprocess-tagged-text]
 
 .. [1]
    Unitex同时也会建议非Unicode Little-Endian的字典与图像进行自动转换。
