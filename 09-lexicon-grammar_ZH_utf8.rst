@@ -24,8 +24,8 @@
 :raw-latex:`\cite{giry1978}`, :raw-latex:`\cite{gross1976}`,
 :raw-latex:`\cite{ranchhod2001}`), adverbes
 (:raw-latex:`\cite{syntaxe-de-ladverbe}`,
-:raw-latex:`\cite{grammaire-des-adverbes}`), ou les expressions figées,
-dans de nombreuses langues
+:raw-latex:`\cite{grammaire-des-adverbes}`),
+在许多语言中有很多固定表达，
 (:raw-latex:`\cite{lexique-grammaire-allemand2}`,
 :raw-latex:`\cite{lexique-grammaire-italien2}`,
 :raw-latex:`\cite{lexique-grammaire-italien}`,
@@ -41,10 +41,10 @@ dans de nombreuses langues
 图 [fig-table-32NM]显示语法词汇的列表。此表涉及动词承认数字的补充。
 
 .. figure:: resources/img/fig8-1.png
-   :alt: Table de lexique-grammaire 32NM[fig-table-32NM]
+   :alt: 32NM语法表[fig-table-32NM]
    :width: 15.00000cm
 
-   Table de lexique-grammaire 32NM[fig-table-32NM]
+   32NM语法表[fig-table-32NM]
 
 转换图表
 --------
