@@ -368,8 +368,8 @@ terre*\ 的结果如下：
 (*journal*)的结合。\ ``PolyLex``
 程序返回一个生词列表并且尝试分析有没有可能是一个组合词。如果能分析出至少一种可能性，程序就会分会一个列表并加入单词词典。
 
-Ouverture d’un texte taggué
----------------------------
+打开被标记的文本
+----------------
 
 文本标记是大括号里的文本语法注释。比如说下句：
 
@@ -381,10 +381,10 @@ Ouverture d’un texte taggué
 然而，这些标记可能会影响预处理文章。不过用户可以通过点击菜单“文本”下的“打开含标签的文本”使文本的预处理不受影响，如图[preprocess-tagged-text]所示。
 
 .. figure:: resources/img/fig2-15.png
-   :alt: Prétraitement d’un texte taggué[preprocess-tagged-text]
+   :alt: 预处理被标记的文本[preprocess-tagged-text]
    :width: 14.00000cm
 
-   Prétraitement d’un texte taggué[preprocess-tagged-text]
+   预处理被标记的文本[preprocess-tagged-text]
 
 .. [1]
    Unitex同时也会建议非Unicode Little-Endian的字典与图像进行自动转换。
